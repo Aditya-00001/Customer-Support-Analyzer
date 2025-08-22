@@ -1,0 +1,9 @@
+flask
+flask-cors
+pandas
+scikit-learn
+spacy
+transformers
+sentence-transformers
+bertopic
+
