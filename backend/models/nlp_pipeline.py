@@ -6,7 +6,7 @@ import spacy
 from bertopic import BERTopic
 
 # Load dataset
-df = pd.read_csv("data/twcs.csv")
+df = pd.read_csv("data/sample_small.csv")
 
 # -------------------------
 # 1. Automated Query Classification (Clustering)
@@ -46,5 +46,5 @@ df["topic"] = topics
 # -------------------------
 # Save Processed Data
 # -------------------------
-df.to_csv("data/processed.csv", index=False)
+df.to_csv("data/processed_data_sample.csv", index=False)
 print("✅ NLP processing complete. Saved to data/processed.csv")
